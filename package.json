@@ -8,8 +8,20 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.8.8",
+    "@contentful/rich-text-html-renderer": "^16.3.0",
+    "@vue/apollo-composable": "^4.0.0-beta.12",
+    "apollo-boost": "^0.4.9",
+    "apollo-client": "^2.6.10",
+    "axios": "^1.6.2",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "graphql": "^15.8.0",
+    "vue": "^3.2.13",
+    "vue-apollo": "^3.1.1",
+    "vue-carousel": "^0.18.0",
+    "vue-router": "^4.2.5",
+    "vue-slick-carousel": "^1.0.6",
+    "vue3-carousel": "^0.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

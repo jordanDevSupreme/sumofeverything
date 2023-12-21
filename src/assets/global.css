@@ -1,0 +1,51 @@
+/* src/assets/global.css */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* Add other global styles as needed */
+  }
+  
+  h1, h2, h3 {
+    font-weight: 700;
+  }
+  
+  p {
+    font-weight: 400;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  /* Visual effect for active links */
+  a.router-link-active {
+    position: relative;
+    color: #333; /* Adjust the active link color as needed */
+  }
+a.router-link-exact-active {
+  text-decoration: none;
+  color: grey; /* Change color for active links */
+}
+
+/* Add a grey tint for active links */
+a.router-link-active {
+  text-decoration: none;
+    
+}
+
+/* Visual effect for active links */
+a.router-link-active::after {
+  content: '';
+  display: block;
+  height: 2px; /* Adjust the underline height as needed */
+  background-color: #333; /* Adjust the underline color as needed */
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Animation for active links */
+a.router-link-active:hover::after,
+a.router-link-active:focus::after {
+  transform: scaleX(1);
+}
+  
